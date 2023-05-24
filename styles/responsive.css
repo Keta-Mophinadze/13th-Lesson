@@ -1,0 +1,21 @@
+@media (max-width:744px) {
+    .header-buttons {
+        display: none;
+    }
+    .background-image {
+        padding: 3.75rem 0;
+    }
+    .texts h1 {
+        font-size: 3.125rem;
+        
+    }
+    .texts p {
+        width: 90%;
+        margin: 0 auto;
+    }
+   
+
+  
+
+    
+}
