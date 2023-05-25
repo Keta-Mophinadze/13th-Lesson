@@ -1,3 +1,40 @@
+@media (max-width: 1024px) {
+    .section02-grid {
+        grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    }
+
+    .section03-flex {
+        flex-direction: column-reverse;
+
+    }
+    .right-side-block {
+        margin-bottom: 3.125rem;
+    }
+
+    .section04-container {
+        flex-direction: column;
+    }
+
+    .sect04-right-side {
+        text-align: center;
+    }
+    .features03 {
+        margin: 0 auto;
+    }
+    .sect04-right-side {
+        margin-top: 2.813rem;
+    }
+    
+  
+
+   
+   
+
+    
+}
+
+
+
 @media (max-width:744px) {
     .header-buttons {
         display: none;
@@ -6,16 +43,75 @@
         padding: 3.75rem 0;
     }
     .texts h1 {
-        font-size: 3.125rem;
+        font-size: 2.5rem;
+        width: 90%;
+        margin: 0 auto;
         
     }
     .texts p {
         width: 90%;
         margin: 0 auto;
     }
+    .buttons {
+        background-color: lightgreen;
+        flex-direction: column;
+        /* align-items: center; */
+       
+    }
+    .fa-envelope {
+        top: 50%;
+        left: 25%;
+        transform: translateY(-50%);
+    
+    }
+    .get-button {
+        margin: 0 auto;
+    }
+
+    .section04-container {
+        padding: 0;
+    }
+    .sect04-left-side {
+        margin-right: 0;
+   
+    }
+
+    .sect04-right-side {
+        width: 90%;
+    }
    
 
   
+
+    
+}
+
+
+@media (max-width: 375px) {
+    .section03-title h3 {
+        font-size: 1.875rem;
+    }
+    
+
+    .right-side-block {
+        height: 350px;
+    }
+    .div-box01 {
+        flex-direction: column;
+        text-align: center;
+    }
+    .green-icon {
+        
+        margin: 0 auto 1.875rem auto;
+    }
+    .section03-texts h3 {
+        font-size: 1.25rem;
+        margin-bottom: 0.5rem;
+    }
+  
+    .sect04-left-side {
+        height: 300px;
+    }
 
     
 }

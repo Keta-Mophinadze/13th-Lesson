@@ -15,6 +15,7 @@
     position: fixed;
     width: 100%;
     z-index: 1;
+    background-color: #FFFFFF;
 }
 .ul-li-item {
     width: 26rem;
@@ -98,7 +99,8 @@
     color: #8896AB;
 }
 .buttons {
-    width: 34.625rem;
+    max-width: 34.625rem;
+    width: 100%;
     display: flex;
     justify-content: space-between;
     margin: 26px auto 16px auto;
@@ -148,3 +150,233 @@
     line-height: 1.25rem;
 
 }
+
+/* SECOND SECTION */
+
+
+
+.section02-container {
+    max-width: 90rem;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 2.5rem 0 2.5rem;
+}
+.section02-title {
+    max-width: 57.438rem;
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+}
+.features {
+    width: 4.625rem;
+    height: 1.375rem;
+    margin: 90px auto 16px auto;
+    box-shadow: 0px 1px 2px rgba(105, 81, 255, 0.05);
+    border-radius: 36px;
+    background: #DCFCE7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.features h6 {
+    font-weight: 500;
+    font-size: 0.75rem;
+    line-height: 1.125rem;
+    color: #22C55E;
+}
+.section02-title h3,
+.section03-title h3 {
+    font-weight: 700;
+    font-size: 2.25rem;
+    line-height: 2.75rem;
+    color: #2A3342;
+    margin-bottom: 16px;
+}
+.section02-title p,
+.section03-title p {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    color: #556987;
+    margin-bottom: 80px;
+}
+
+.section02-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 50px;
+}
+
+.grid-box {
+    height: 22.438rem;
+
+}
+.grid-box {
+    text-align: center;
+}
+.grid-block-icon {
+    background-color: #22C55E;
+    width: 4rem;
+    height: 4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 2rem auto 1.5rem auto;
+    border-radius: 0.375rem;
+}
+.grid-box h3,
+.section03-texts h3 {
+    font-weight: 700;
+    font-size: 1.5rem;
+    line-height: 2rem;
+    color: #2A3342;
+    margin-bottom: 1rem;
+}
+.grid-box p,
+.section03-texts p {
+    width: 80%;
+    margin: 0 auto;
+    font-weight: 500;
+    font-size: 1rem;
+    line-height: 1.5rem;
+    color: #556987;
+}
+
+
+
+/* SECOND SECTION */
+
+/* THIRD SECTION */
+
+.features03 {
+    width: 4.625rem;
+    height: 1.375rem;
+    box-shadow: 0px 1px 2px rgba(105, 81, 255, 0.05);
+    border-radius: 36px;
+    background: #DCFCE7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 1rem;
+    
+}
+.features03 h6 {
+    font-weight: 500;
+    font-size: 0.75rem;
+    line-height: 1.125rem;
+    color: #22C55E;
+}
+.section03-title p {
+    max-width: 57.438rem;
+    width: 100%;
+}
+.section03-container {
+    max-width: 90rem;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 60px;
+}
+
+.section03-flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.div-box01 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 60px;
+}
+.section03-texts h3,
+.section03-texts p {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.green-icon {
+    width: 3.5rem;
+    height: 3.5rem;
+    background-color: #22C55E;
+    margin-right: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.right-side-block {
+    background-image: url(../images/Image\ Container.jpg);
+    max-width: 34.625rem;
+    width: 100%;
+    height: 34.75rem;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+
+
+
+
+/* THIRD SECTION */
+
+/* FOURTH SECTION */
+.section04-container {
+    background-color: lightpink;
+    max-width: 90rem;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 6.25rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.sect04-left-side {
+    background-image: url(../images/Image\ Container.jpg);
+    max-width: 34.625rem;
+    width: 100%;
+    height: 34.75rem;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-right: 20px;
+
+}
+.sect04-right-side {
+    background-color: red;
+    width: 28.5rem;
+}
+.sect04-right-side h3 {
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 60px;
+    color: #2A3342;
+
+}
+
+.sect04-right-side p {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    color: #556987;
+    margin: 32px 0 25px 0;
+
+}
+.get-started-button {
+    width: 8rem;
+    height: 2.875rem;
+    background: #22C55E;
+    border: none;
+    border-radius: 0.375rem;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #F0FDF4;
+
+}
+
+
+/* FOURTH SECTION */
