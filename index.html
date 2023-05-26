@@ -3,8 +3,10 @@
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="description" content="Web Exercises" />
+    <meta name="keywords" content="HTML CSS Grid" />
+    <meta name="author" content="Keta Mophinadze" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Home Page</title>
     <link rel="stylesheet" href="styles/reset.css" />
     <link
       rel="stylesheet"
@@ -14,6 +16,8 @@
     <link rel="stylesheet" href="styles/style.css" />
     <link rel="stylesheet" href="styles/responsive.css" />
     <link rel="stylesheet" href="styles/fonts.css" />
+    <link rel="icon" href="images/Logo.svg">
+    <title>Home Page</title>
   </head>
   <body>
     <!-- HEADER -->
@@ -30,6 +34,8 @@
             <li>Resources</li>
           </ul>
         </nav>
+        <i class="fa-solid fa-bars"></i>
+
         <div class="header-buttons">
           <button class="log-in-button poppins">Log In</button>
           <button class="sign-up-button poppins">Sign Up</button>
@@ -77,7 +83,6 @@
       </section>
     </main>
     <!-- FIRST SECTION -->
-
     <!-- SECOND SECTION -->
     <div class="section02-container">
       <div class="section02-title">
@@ -156,6 +161,21 @@
         </div>
       </div>
     </div>
+
+    <div class="blue-container">
+      <div class="blue-right-side">
+        <h2 class="poppins">The fastest way from idea to live site. Period.</h2>
+        <p class="poppins">
+          Flex is a Small SaaS Business. Flex isn&#39;t a traditional company.
+        </p>
+      </div>
+
+      <div class="blue-left-side">
+        <button class="blue-get-started poppins">Get Started</button>
+        <button class="blue-learn-more poppins">Learn More</button>
+      </div>
+    </div>
+
     <!-- SECOND SECTION -->
 
     <!-- THIRD SECTION -->
@@ -175,9 +195,7 @@
         </div>
 
         <div class="section03-flex">
-
           <div class="left-side-block">
-
             <div class="div-box01">
               <div class="green-icon">
                 <img src="images/Vector.svg" alt="message-icon" />
@@ -217,8 +235,7 @@
             </div>
           </div>
 
-          <div class="right-side-block">
-          </div>
+          <div class="right-side-block"></div>
         </div>
       </div>
     </section>
@@ -228,9 +245,24 @@
     <!-- FOURTH SECTION -->
 
     <div class="section04-container">
-
       <div class="sect04-left-side"></div>
 
+      <div class="sect04-right-side">
+        <div class="features03 active">
+          <h6 class="poppins">FEATURES</h6>
+        </div>
+        <h3 class="poppins">Gain more insight into how people use your</h3>
+        <p class="poppins">
+          With our integrated CRM, project management, collaboration and
+          invoicing capabilities, you can manage every aspect of your business
+          in one secure platform.
+        </p>
+
+        <button class="get-started-button poppins">Get Started</button>
+      </div>
+    </div>
+
+    <div class="section04-container02">
       <div class="sect04-right-side">
         <div class="features03">
           <h6 class="poppins">FEATURES</h6>
@@ -243,13 +275,74 @@
         </p>
 
         <button class="get-started-button poppins">Get Started</button>
-
-
       </div>
-    
 
+      <div class="sect04-left-side"></div>
     </div>
 
     <!-- FOURTH SECTION -->
+
+    <!-- FIFTH SECTION -->
+    <div class="section05-container">
+      <div class="section05-title">
+        <div class="numbers-title">
+          <h6 class="poppins">NUMBERS</h6>
+        </div>
+        <h2 class="poppins">We believe in the power of data</h2>
+        <p class="poppins">
+          Flex is the only business platform that lets you run your business on
+          one platform, seamlessly across all digital channels.
+        </p>
+      </div>
+
+      <div class="section05-grid">
+        <div class="grid-05">
+          <h6 class="poppins">235.000</h6>
+          <p class="poppins">Projects completed</p>
+        </div>
+
+        <div class="grid-05">
+          <h6 class="poppins">&#36;10m</h6>
+          <p class="poppins">APR</p>
+        </div>
+
+        <div class="grid-05">
+          <h6 class="poppins">+50.000</h6>
+          <p class="poppins">Hours Saved Annually</p>
+        </div>
+
+        <div class="grid-05">
+          <h6 class="poppins">3.500</h6>
+          <p class="poppins">Unique Users</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- FIFTH SECTION -->
+    <!-- FOOTER -->
+    <footer class="footer">
+      <div class="footer-container">
+        <div class="upper-section">
+          <a href="index.html">
+            <img src="images/Logowhite.svg" alt="logo" />
+          </a>
+          <ul class="footer-ul-item poppins">
+            <li>Product</li>
+            <li>Features</li>
+            <li>Pricing</li>
+            <li>Resources</li>
+            <li>Careers</li>
+            <li>Help</li>
+            <li>Privacy</li>
+          </ul>
+        </div>
+
+        <hr class="line" />
+        <div class="copyright">
+          <p class="poppins">&#169; 2021 Flex. All rights reserved.</p>
+        </div>
+      </div>
+    </footer>
+    <!-- FOOTER -->
   </body>
 </html>
